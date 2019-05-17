@@ -1,4 +1,4 @@
-export const vendorList = [
+export const illinoisVendorList = [
   {
     name: "Hutch Chicago",
     type: "Bar",
@@ -1143,4 +1143,546 @@ export const vendorList = [
     latitude: 41.920796,
     longitude: -87.693368
   }
-]
+];
+
+export const marylandVendorList = [
+  {
+    name: "Vida Taco Bar",
+    type: "Restaurant",
+    address: "1401 Point St",
+    city: "Baltimore",
+    state: "Maryland",
+    zipCode: 21231,
+    country: "United States",
+    latitude: 39.282438,
+    longitude: -76.496267
+  },
+  {
+    name: "Vida Taco Bar",
+    type: "Restaurant",
+    address: "200 Main St",
+    city: "Annapolis",
+    state: "Maryland",
+    zipCode: 21401,
+    country: "United States",
+    latitude: 38.97816,
+    longitude: -76.491014
+  },
+  {
+    name: "Vida Taco Bar",
+    type: "Restaurant",
+    address: "541 Baltimore Annalpolis Blvd",
+    city: "Severna Park",
+    state: "Maryland",
+    zipCode: 21146,
+    country: "United States",
+    latitude: 39.073779,
+    longitude: -76.54727
+  },
+  {
+    name: "BLT Prime",
+    type: "Restaurant",
+    address: "1100 Pennsylvania Ave NW",
+    city: "Washington",
+    state: "DC",
+    zipCode: 20004,
+    country: "United States",
+    latitude: 38.894312,
+    longitude: -77.02762
+  },
+  {
+    name: "Capital Burger",
+    type: "Restaurant",
+    address: "1005 7th St NW",
+    city: "Washington",
+    state: "DC",
+    zipCode: 20001,
+    country: "United States",
+    latitude: 38.90332,
+    longitude: -77.021623
+  },
+  {
+    name: "The Commodore",
+    type: "Restaurant",
+    address: "1100 P St NW",
+    city: "Washington",
+    state: "DC",
+    zipCode: 20005,
+    country: "United States",
+    latitude: 38.909514,
+    longitude: -77.02739
+  },
+  {
+    name: "A-1 Wines & Liquor",
+    type: "Liquor Store",
+    address: "1420 K St NW",
+    city: "Washington",
+    state: "DC",
+    zipCode: 20005,
+    country: "United States",
+    latitude: 38.90215,
+    longitude: -77.032813
+  },
+  {
+    name: "Hawthorne",
+    type: "Bar",
+    address: "1336 U St NW",
+    city: "Washington",
+    state: "DC",
+    zipCode: 20009,
+    country: "United States",
+    latitude: 38.916819,
+    longitude: -77.03105
+  },
+  {
+    name: "Mission",
+    type: "Restaurant",
+    address: "1606 20th St NW",
+    city: "Washington",
+    state: "DC",
+    zipCode: 20009,
+    country: "United States",
+    latitude: 38.911516,
+    longitude: -77.045137
+  },
+  {
+    name: "Hop Cask and Barrel",
+    type: "Liquor Store",
+    address: "1717 Winsconsin Ave NW",
+    city: "Washington",
+    state: "DC",
+    zipCode: 20007,
+    country: "United States",
+    latitude: 38.914561,
+    longitude: -77.075649
+  },
+  {
+    name: "Supra",
+    type: "Restaurant",
+    address: "1205 11th St NW",
+    city: "Washington",
+    state: "DC",
+    zipCode: 20001,
+    country: "United States",
+    latitude: 38.905726,
+    longitude: -77.026886
+  },
+  {
+    name: "Bar Elena",
+    type: "Bar",
+    address: "414 H St NE",
+    city: "Washington",
+    state: "DC",
+    zipCode: 20002,
+    country: "United States",
+    latitude: 38.900465,
+    longitude: -76.999881
+  },
+  {
+    name: "Bedrock Billiards",
+    type: "Bar",
+    address: "1841 Columbia Rd",
+    city: "Washington",
+    state: "DC",
+    zipCode: 20009,
+    country: "United States",
+    latitude: 38.921496,
+    longitude: -77.043836
+  },
+  {
+    name: "Jinya Ramen Bar",
+    type: "Restaurant",
+    address: "1336 14th St NW",
+    city: "Washington",
+    state: "DC",
+    zipCode: 20005,
+    country: "United States",
+    latitude: 38.908432,
+    longitude: -77.032193
+  },
+  {
+    name: "St Anselm",
+    type: "Restaurant",
+    address: "1250 5th St NE",
+    city: "Washington",
+    state: "DC",
+    zipCode: 20002,
+    country: "United States",
+    latitude: 38.907646,
+    longitude: -76.999042
+  },
+  {
+    name: "Jackpot",
+    type: "Bar",
+    address: "726 7th St NW",
+    city: "Washington",
+    state: "DC",
+    zipCode: 20001,
+    country: "United States",
+    latitude: 38.899335,
+    longitude: -77.022229
+  },
+  {
+    name: "Service Bar",
+    type: "Bar",
+    address: "926-928 U St NW",
+    city: "Washington",
+    state: "DC",
+    zipCode: 20001,
+    country: "United States",
+    latitude: 38.916852,
+    longitude: -77.025045
+  },
+  {
+    name: "Grady's",
+    type: "Bar",
+    address: "2210 14th St NW",
+    city: "Washington",
+    state: "DC",
+    zipCode: 20009,
+    country: "United States",
+    latitude: 38.919604,
+    longitude: -77.032358
+  },
+  {
+    name: "Carving Room",
+    type: "Restaurant",
+    address: "300 Massachusetts Ave",
+    city: "Washington",
+    state: "DC",
+    zipCode: 20001,
+    country: "United States",
+    latitude: 38.899913,
+    longitude: -77.015239
+  },
+  {
+    name: "Pitt Stop Beer & Wine",
+    type: "Liqour Store",
+    address: "9040 Worcester Hwy",
+    city: "Berlin",
+    state: "Maryland",
+    zipCode: 21811,
+    country: "United States",
+    latitude: 38.312483,
+    longitude: -75.218936
+  },
+  {
+    name: "Slash Run",
+    type: "Bar",
+    address: "201 Upshur St NW",
+    city: "Washington",
+    state: "DC",
+    zipCode: 20011,
+    country: "United States",
+    latitude: 38.942416,
+    longitude: -77.013869
+  },
+  {
+    name: "R&V Liquors",
+    type: "Liquor Store",
+    address: "1286 State Route 3 S",
+    city: "Crofton",
+    state: "Maryland",
+    zipCode: 21114,
+    country: "United States",
+    latitude: 39.008287,
+    longitude: -76.698779
+  },
+  {
+    name: "Arcuri",
+    type: "Restaurant",
+    address: "2400 Wisconsin Ave",
+    city: "Washington",
+    state: "DC",
+    zipCode: 20007,
+    country: "United States",
+    latitude: 38.921205,
+    longitude: -77.072391
+  },
+  {
+    name: "Star Liquors",
+    type: "Liquor Store",
+    address: "8610 Washington Blvd",
+    city: "Jessup",
+    state: "Maryland",
+    zipCode: 20794,
+    country: "United States",
+    latitude: 39.146884,
+    longitude: -76.808888
+  },
+  {
+    name: "Scott's Brothers Wine & Liquors",
+    type: "Liquor Store",
+    address: "936 Bay Ridge Rd",
+    city: "Annapolis",
+    state: "Maryland",
+    zipCode: 21403,
+    country: "United States",
+    latitude: 38.949279,
+    longitude: -76.486951
+  },
+  {
+    name: "Bell Wine & Spirits",
+    type: "Liquor Store",
+    address: "1821 M St NW",
+    city: "Washington",
+    state: "DC",
+    zipCode: 20036,
+    country: "United States",
+    latitude: 38.905927,
+    longitude: -77.042642
+  },
+  {
+    name: "Bloomingdale Wine & Spirits",
+    type: "Liquor Store",
+    address: "1836 1st St NW",
+    city: "Washington",
+    state: "DC",
+    zipCode: 20001,
+    country: "United States",
+    latitude: 38.915419,
+    longitude: -77.012392
+  },
+  {
+    name: "Modern Liquors",
+    type: "Liquor Store",
+    address: "1200 9th St NW",
+    city: "Washington",
+    state: "DC",
+    zipCode: 20001,
+    country: "United States",
+    latitude: 38.90588,
+    longitude: -77.024164
+  },
+  {
+    name: "BLT Steakhouse",
+    type: "Restaurant",
+    address: "1625 I St NW",
+    city: "Washington",
+    state: "DC",
+    zipCode: 20006,
+    country: "United States",
+    latitude: 38.901723,
+    longitude: -77.037604
+  },
+  {
+    name: "Normandy Wine & Spirits",
+    type: "Liquor Store",
+    address: "8492 Baltimore National Pike",
+    city: "Ellicot City",
+    state: "Maryland",
+    zipCode: 21043,
+    country: "United States",
+    latitude: 39.285792,
+    longitude: -76.808939
+  },
+  {
+    name: "Minnesota Liquors",
+    type: "Liquor Store",
+    address: "2237 Minnesota Ave SE",
+    city: "Washington",
+    state: "DC",
+    zipCode: 20020,
+    country: "United States",
+    latitude: 38.871895,
+    longitude: -76.973395
+  },
+  {
+    name: "Pappe",
+    type: "Restaurant",
+    address: "1317 14th St NW",
+    city: "Washington",
+    state: "DC",
+    zipCode: 20005,
+    country: "United States",
+    latitude: 38.907869,
+    longitude: -77.031567
+  },
+  {
+    name: "Potomac Wine & Spirits",
+    type: "Liquor Store",
+    address: "3100 M St NW",
+    city: "Rockville",
+    state: "Maryland",
+    zipCode: 20007,
+    country: "United States",
+    latitude: 38.904998,
+    longitude: -77.061316
+  },
+  {
+    name: "Liquor Locker",
+    type: "Liquor Store",
+    address: "1740 Dual Hwy",
+    city: "Hagerstown",
+    state: "Maryland",
+    zipCode: 21740,
+    country: "United States",
+    latitude: 39.614813,
+    longitude: -77.691191
+  },
+  {
+    name: "The Wine Specialist",
+    type: "Liquor Store",
+    address: "1133 20th St NW",
+    city: "Washington",
+    state: "DC",
+    zipCode: 20036,
+    country: "United States",
+    latitude: 38.904952,
+    longitude: -77.044542
+  },
+  {
+    name: "Greenbelt Liquors",
+    type: "Liquor Store",
+    address: "6000 Greenbelt Rd",
+    city: "Greenbelt",
+    state: "Maryland",
+    zipCode: 20770,
+    country: "United States",
+    latitude: 38.998383,
+    longitude: -76.911065
+  },
+  {
+    name: "S&R Liquors",
+    type: "Liquor Store",
+    address: "1015 18th St NW",
+    city: "Washington",
+    state: "DC",
+    zipCode: 20036,
+    country: "United States",
+    latitude: 38.903158,
+    longitude: -77.04135
+  },
+  {
+    name: "Union District Oyster Bar & Lounge",
+    type: "Restaurant",
+    address: "7011, 501 Morse St NE",
+    city: "Washington",
+    state: "DC",
+    zipCode: 20002,
+    country: "United States",
+    latitude: 38.908218,
+    longitude: -76.982147
+  },
+  {
+    name: "Magnolia Kitchen & Bar",
+    type: "Restaurant",
+    address: "1601 Connecticut Ave",
+    city: "Washington",
+    state: "DC",
+    zipCode: 20009,
+    country: "United States",
+    latitude: 38.911384,
+    longitude: -77.044091
+  },
+  {
+    name: "Kent Town Liquors",
+    type: "Liquor Store",
+    address: "20 Kent Town Market",
+    city: "Chester",
+    state: "Maryland",
+    zipCode: 21619,
+    country: "United States",
+    latitude: 38.974624,
+    longitude: -76.280089
+  },
+  {
+    name: "Chaplin's",
+    type: "Restaurant",
+    address: "1501 9th St NW",
+    city: "Washington",
+    state: "DC",
+    zipCode: 20001,
+    country: "United States",
+    latitude: 38.909809,
+    longitude: -77.023688
+  },
+  {
+    name: "Imperial Wine & Spirits",
+    type: "Liquor Store",
+    address: "620 12th St NW",
+    city: "Washington",
+    state: "DC",
+    zipCode: 20001,
+    country: "United States",
+    latitude: 38.898139,
+    longitude: -77.02827
+  },
+  {
+    name: "Ella's Woodfired Pizza",
+    type: "Restaurant",
+    address: "610 9th St NW",
+    city: "Washington",
+    state: "DC",
+    zipCode: 20004,
+    country: "United States",
+    latitude: 38.897408,
+    longitude: -77.024118
+  },
+  {
+    name: "J B Liquors",
+    type: "Liquor Store",
+    address: "5842 Silver Hill Rd",
+    city: "District Heights",
+    state: "Maryland",
+    zipCode: 20747,
+    country: "United States",
+    latitude: 38.856687,
+    longitude: -76.906587
+  },
+  {
+    name: "Camelot Liquors",
+    type: "Liquor Store",
+    address: "4699, 300 Washington Blvd",
+    city: "Laurel",
+    state: "Maryland",
+    zipCode: 20707,
+    country: "United States",
+    latitude: 39.093136,
+    longitude: -76.881945
+  },
+  {
+    name: "Mission Navy Yard",
+    type: "Restaurant",
+    address: "1221 Van St SE",
+    city: "Washington",
+    state: "DC",
+    zipCode: 20003,
+    country: "United States",
+    latitude: 38.875036,
+    longitude: -77.008396
+  },
+  {
+    name: "Berlin Liquor Store",
+    type: "Liquor Store",
+    address: "10818 Ocean Gateway Hwy",
+    city: "Berlin",
+    state: "Maryland",
+    zipCode: 21811,
+    country: "United States",
+    latitude: 38.3447,
+    longitude: -75.184039
+  },
+  {
+    name: "Tequila Mockinbird",
+    type: "Restaurant",
+    address: "12919 Coastal Hwy",
+    city: "Ocean City",
+    state: "Maryland",
+    zipCode: 21842,
+    country: "United States",
+    latitude: 38.434624,
+    longitude: -75.054645
+  },
+  {
+    name: "Guido's Burritos",
+    type: "Restaurant",
+    address: "",
+    city: "",
+    state: "",
+    zipCode: "",
+    country: "United States",
+    latitude: 0,
+    longitude: 0
+  }
+];
