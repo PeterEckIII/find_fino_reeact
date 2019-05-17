@@ -187,7 +187,7 @@ export const illinoisVendorList = [
     longitude: -87.720129
   },
   {
-    name: "Hometown Pantry and Liquor",
+    name: "Hometown Pantry & Liquor",
     type: "Liquor Store",
     address: "35029 state Route 59",
     city: "Warrenville",

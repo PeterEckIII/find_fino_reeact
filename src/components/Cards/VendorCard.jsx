@@ -1,18 +1,9 @@
 import React from "react";
-import styled from "styled-components";
-
-const Card = styled.div`
-  list-style: none;
-  margin-bottom: 10px;
-  box-shadow: 0 2px 6px 0 hsla(0, 0%, 0%, 0.2);
-  text-align: center;
-  border-radius: 10px;
-  font-family: Roboto;
-`;
+import styles from "./VendorCard.modules.css";
 
 const VendorCard = props => {
   return (
-    <Card>
+    <div className="Card">
       <br />
       <strong>{props.name}</strong>
       <br />
@@ -24,7 +15,7 @@ const VendorCard = props => {
       {props.zipCode}
       <br />
       <br />
-    </Card>
+    </div>
   );
 };
 

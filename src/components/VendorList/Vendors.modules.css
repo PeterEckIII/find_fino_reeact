@@ -1,0 +1,27 @@
+.VendorList {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+@media screen and (max-width: 1140px) {
+  .VendorList {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .VendorList {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .VendorList {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 460px) {
+  .VendorList {
+    grid-template-columns: 1fr;
+  }
+}
