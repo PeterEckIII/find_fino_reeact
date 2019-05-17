@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import styled from "styled-components";
 
 const Card = styled.div`
@@ -8,26 +8,24 @@ const Card = styled.div`
   text-align: center;
   border-radius: 10px;
   font-family: Roboto;
-}
-`
+`;
 
-const VendorCard = (props) => {
-    return (
-        <Card>
-                <br></br>
-            <strong>{props.name}</strong>
-                <br></br>
-            <em>{props.type}</em>
-                <br></br>
-            {props.address}
-                <br></br>
-            {props.city},
-            {props.state}
-            {props.zipCode}
-                <br></br>
-                <br></br>
-        </Card>
-    )
-}
+const VendorCard = props => {
+  return (
+    <Card>
+      <br />
+      <strong>{props.name}</strong>
+      <br />
+      <em>{props.type}</em>
+      <br />
+      {props.address}
+      <br />
+      {props.city}, {props.state}&nbsp;
+      {props.zipCode}
+      <br />
+      <br />
+    </Card>
+  );
+};
 
 export default VendorCard;
